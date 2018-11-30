@@ -5,7 +5,7 @@ from datetime import datetime
 
 class Weather:
     def __init__(self):
-        self.owm = pyowm.OWM('2411c6091f2e709e8b51983c8c032fab')
+        self.owm = pyowm.OWM(YOUR_API_KEY)
 
     def search(self, city):
         try:
